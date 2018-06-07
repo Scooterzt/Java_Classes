@@ -1,3 +1,5 @@
+package ru.stqa.pft.sanbox;
+
 public class MyFirstJava {
 
     public static void main(String[] args) {
