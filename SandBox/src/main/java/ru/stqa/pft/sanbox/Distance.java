@@ -2,9 +2,11 @@ package ru.stqa.pft.sanbox;
 
 public class Distance {
     public static void main(String[] args) {
-    Point d = new Point(3.1,4,5,6);
-        System.out.println("Дистанция между точками П1 с координатами " + d.x1 + " и " + d.y1 + "  " +
-                "и точной П2 с коорднатами " + d.x2 + " и " + d.y2 + " = " + d.distance());
+        Point point1 = new Point(-3,-5);
+        Point point2 = new Point(4,5);
+        double distance = Point.distance(point1,point2);
+        System.out.println("Дистанция между точками П1 с координатами " + point1.x + " и " + point1.y + "  " +
+                "и точной П2 с коорднатами " + point2.x + " и " + point2.y + " = " + distance);
     }
 }
 
